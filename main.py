@@ -7,7 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 browser = webdriver.Chrome()
-browser.get('https://www.divan.ru/syktyvkar/category/tovary_dla_doma')
+browser.get('https://www.divan.ru/category/tovary_dla_doma')
 
 
 sorted_data = []
